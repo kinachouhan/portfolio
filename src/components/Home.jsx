@@ -7,11 +7,9 @@ import { FaLinkedin } from "react-icons/fa6";
 import { MdPermContactCalendar } from "react-icons/md";
 
 export const Home = () => {
-
     return (
         <>
             <div className="bg-black text-white">
-
                 {/* HOME */}
                 <section
                     id="home"
@@ -103,8 +101,6 @@ export const Home = () => {
                     <p className="text-center text-gray-300 pb-10 md:pb-20">
                         Here are some of my recent projects that showcase my skills and expertise in full stack development.
                     </p>
-
-                    {/* Project 1 */}
                     <div className="py-10 flex flex-col md:flex-row gap-10 items-center bg-gray-900 p-6 md:p-10 rounded-2xl hover:scale-105 transition-transform duration-300">
                         <div className="w-full md:w-1/2">
                             <img src="/Dashboard.png" alt="Dashboard Project" className="w-full object-cover rounded-lg shadow-lg" />
@@ -128,8 +124,6 @@ export const Home = () => {
                             </button>
                         </div>
                     </div>
-
-                    {/* Project 2 */}
                     <div className="py-10 mt-10 flex flex-col md:flex-row gap-10 items-center bg-gray-900 p-6 md:p-10 rounded-2xl hover:scale-105 transition-transform duration-300">
                         <div className="w-full md:w-1/2">
                             <img src="/Ecommerce.png" alt="Dashboard Project" className="w-full object-cover rounded-lg shadow-lg" />
@@ -155,8 +149,6 @@ export const Home = () => {
                             </button>
                         </div>
                     </div>
-
-                    {/* Project 3 */}
                     <div className="py-10 mt-10 flex flex-col md:flex-row gap-10 items-center bg-gray-900 p-6 md:p-10 rounded-2xl hover:scale-105 transition-transform duration-300">
                         <div className="w-full md:w-1/2">
                             <img src="/k72.png" alt="Dashboard Project" className="w-full object-cover rounded-lg shadow-lg" />
@@ -316,8 +308,6 @@ export const Home = () => {
                         </div>
                     </div>
                 </section>
-
-
             </div>
         </>
     );
