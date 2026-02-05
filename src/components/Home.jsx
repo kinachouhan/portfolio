@@ -2,7 +2,10 @@ import { BsFileEarmarkCode } from "react-icons/bs";
 import { TbCodeOff } from "react-icons/tb";
 import { GiWireframeGlobe } from "react-icons/gi";
 
+
 export const Home = () => {
+
+
     return (
         <>
             <div className="bg-black text-white ">
@@ -64,10 +67,49 @@ export const Home = () => {
 
                 </div>
 
-                <div className="max-w-7xl mx-auto py-25">
+                <div className="max-w-7xl mx-auto pt-25">
                     <h1 className="text-5xl font-bold text-center py-10"><span className="text-blue-500">My</span> Projects</h1>
 
-                    <p className="text-center text-gray-300">Here are some of my recent projects that showcase my skills and expertise in full stack development.</p>
+                    <p className="text-center text-gray-300 pb-20">Here are some of my recent projects that showcase my skills and expertise in full stack development.</p>
+
+                    <div className="py-10 flex gap-10 items-center bg-gray-900 p-10 rounded-2xl hover:scale-105 transition-transform duration-300">
+                        <div className="w-1/2">
+                            <img src="/Dashboard.png" alt="Dashboard Project" className="w-full shrink-0 object-cover rounded-lg shadow-lg"/>
+                        </div>
+                        <div className="w-1/2">
+                             <h1 className="text-3xl font-bold text-blue-500 py-4">Application Platform</h1>
+                             <p className="text-gray-300 py-2">Cargofirst is a user-friendly job portal that connects companies and job seekers, enabling easy job management, applications, and transparent application status tracking</p>
+                             <h1 className="text-sm text-blue-500">Key Features:</h1>
+                             <ul className="list-disc gap-2 pl-5 py-2 text-gray-300">
+                                <li>Real-time Dashboard</li>
+                                <li>Interactive UI Components</li>
+                                <li>Responsive Design</li>
+                             </ul>
+                             <button  onClick={() => window.open("https://applicationplatform.netlify.app", "_blank")} className="my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View Website</button>
+                        </div>
+                    </div>
+
+
+                    <div className="py-10 mt-10 flex gap-10 items-center bg-gray-900 p-10 rounded-2xl hover:scale-105 transition-transform duration-300">
+                        <div className="w-1/2">
+                            <img src="/Ecommerce.png" alt="Dashboard Project" className="w-full shrink-0 object-cover rounded-lg shadow-lg"/>
+                        </div>
+                        <div className="w-1/2">
+                             <h1 className="text-3xl font-bold text-blue-500 py-4">K Crown Clothing Store</h1>
+                             <p className="text-gray-300 py-2">K Crown Clothing Store is a full-stack e-commerce platform that offers customers a smooth shopping experience with secure browsing, ordering, and order tracking.
+It also provides administrators with a dedicated panel to manage products, categories, and orders efficiently while maintaining clear access control.</p>
+                             <h1 className="text-sm text-blue-500">Key Features:</h1>
+                             <ul className="list-disc gap-2 pl-5 py-2 text-gray-300">
+                                <li> Product browsing with detailed views</li>
+                                <li>Secure login and user authentication</li>
+                                <li>Cart, order placement, and order tracking</li>
+                                <li>Admin panel for product and order management</li>
+                             </ul>
+                             <button  onClick={() => window.open("https://kinas-clothing-store.netlify.app", "_blank")} className="my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View Website</button>
+                        </div>
+                    </div>
+
+
 
                 </div>
 
